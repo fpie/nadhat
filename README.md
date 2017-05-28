@@ -46,11 +46,10 @@ send hexadecimal chars '0x1A,0x0D' (<SUB><CR> in fact) to send your SMS
 
 Receive an SMS :
 ================
-at+cmgd=1 : delete sms slot 1 (free slot after that)
 >>> answer the SMS you've received on your phone by Nadhat.
->>> should receive 'CMTI:"SM",1' meaning you have receive a SMS in slot 1
-at+cmgr=1 : read sms in slot 1
-at+cmgd=1 : delete sms to free again slot 1 for next SMS
+>>> should receive 'CMTI:"SM",x' meaning you have receive a SMS in slot x
+at+cmgr=x : read sms in slot 1
+at+cmgd=x : delete sms to free slot x for next SMS
 
 
 
