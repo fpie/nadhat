@@ -1,3 +1,8 @@
+IMPORTANT NOTICE.
+=================
+This deposit have moved [there]
+
+
 Welcome to NadHat.
 ==================
 
@@ -55,6 +60,7 @@ default setup for serial port /dev/ttyAMA0 is 115200,8,N,1
  - at+cmgr=x _: read sms in slot 1_
  - at+cmgd=x _: delete sms to free slot x for next SMS_
 
+[there]: https://github.com/garatronic/nadhat/tree/master
 [schematics]: https://github.com/garatronic/nadhat/tree/master/hardware
 [datasheets and application notes]: https://github.com/garatronic/nadhat/tree/master/datasheet
 [pieces of software]: https://github.com/garatronic/nadhat/tree/master/datasheet
